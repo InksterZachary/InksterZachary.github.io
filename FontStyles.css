@@ -1,4 +1,4 @@
-h1, h2{
-    background-color: black;
-    color: white;
+#Whole-bg{
+    background-image: image(images/galaxy);
+    background-color: #cccccc;
 }
