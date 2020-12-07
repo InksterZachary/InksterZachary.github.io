@@ -1,0 +1,46 @@
+.bg-1{
+    background-color:#1abc9c;
+    color: #ffffff;
+}
+.bg-whole {
+    background-image: url(https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-1.jpg);
+    background-size: cover;
+}
+h1{
+    color: blue;
+    color: blueviolet;
+}
+.blinking{
+    padding: 70px 0;
+    animation:blinkingText 2.0s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(35, 21, 114);    }
+    49%{    color: rgb(85, 11, 128); }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: rgb(20, 5, 85);    }
+}
+.spin{
+    animation: spin 4s infinite linear;
+    border-radius: 50%;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+.scale{
+    animation: scale 4s infinite linear;
+}
+@keyframes scale{
+    from{
+        transform:scale(0.9) ;
+    }
+    to{
+        transform:scale(0.01) ;
+    }
+}
