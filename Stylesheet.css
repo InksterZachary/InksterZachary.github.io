@@ -1,0 +1,105 @@
+.bg-1{
+    background-image: url();
+    background-color: #ffffff;
+}
+.bg-2{
+    background-image: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/shutterstock_359492192.jpg?w=750), url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/25c80ec1-f688-4656-ada4-410f28696f2b/d7dstsf-1b9cba19-d116-4dcc-9b66-fc204e7cd41c.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMjVjODBlYzEtZjY4OC00NjU2LWFkYTQtNDEwZjI4Njk2ZjJiXC9kN2RzdHNmLTFiOWNiYTE5LWQxMTYtNGRjYy05YjY2LWZjMjA0ZTdjZDQxYy5naWYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ndOn9jt3KUL5_yiL8pFeRqE33gHAlYZjo2PKolaFjgo);
+    background-color: darkslategrey;
+    background-position: center;
+    background-blend-mode: hard-light;
+}
+
+img{
+    border-radius: 50%;
+    position: absolute;
+    visibility: visible;
+    top: 30px;
+    left: 375px;
+    width: 200px;
+    height: 200px;
+}
+#fn-locator {
+     position: absolute; 
+     visibility: visible; 
+     left: 200px; 
+     top: 50px; 
+     z-index: 200; 
+    }
+#ln-locator{
+    position: absolute;
+    visibility: visible;
+    right: 334px;
+    top: 162px;
+    z-index: 200;
+}
+table, tr, th{
+    text-align: center;
+    border-style: inset;
+    border: 1px solid black;
+    padding: 70px;
+}
+button{
+    border: none;
+    padding: 20;
+    font-size: 100%;
+    background: transparent;
+}
+hide-button{
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    pointer-events: none !important;
+    font: large;
+    top:20px;
+    right:490px;
+}
+.flier {
+	pointer-events: none;
+}
+
+.flier > * {
+        animation: fly 15s linear infinite;
+        pointer-events: none !important;
+	top: 0;
+	left: 0;
+	transform: translateX(-120%) translateY(-120%) rotateZ(0);
+	position: fixed;
+	animation-delay: 1s;
+	z-index: 999999;
+}
+
+@keyframes fly {
+
+	98.001%, 0% {
+                display: block;
+		transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+	}
+
+	15% {
+		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
+	}
+
+	15.001%, 18% {
+		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+	}
+
+	40% {
+		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+	}
+
+	40.001%, 43% {
+		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+	}
+
+	65% {
+		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+	}
+
+	65.001%, 68% {
+		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+	}
+
+	95% {
+		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+	}
+}

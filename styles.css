@@ -1,0 +1,48 @@
+th{
+    border-style: inset;
+    border: 1px solid rgba(0, 255, 21, 0.459);
+    padding:70px;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+.jumbotron{
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+}
+.bg-1{
+    background-image:url(https://static.vecteezy.com/system/resources/previews/000/544/049/original/green-technology-circle-and-computer-science-abstract-background-with-binary-code-matrix-business-and-connection-futuristic-and-industry-4-0-concept-internet-cyber-and-network-theme-vector.jpg);
+}
+.imga{
+    border-radius: 40%;
+}
+.p1{
+    color: blue;
+}
+.small{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
+.projtxt{
+    text-decoration: underline;
+    padding:30px;
+}
+.bg-2{
+    background-image: url(https://i1.wp.com/sofacope.com/wp-content/uploads/2018/03/d-3D-Textured-Wall-Tiles-wall-angle-ceramic-tiles-from-atlas-concorde-architonicrharchitoniccom-wallmounted-decorative-panel-natural-stone-gemma-by-rhpinterestcom.jpg?fit=1899%2C1422&amp;ssl=1);
+    background-position: center;
+    vertical-align:middle;
+    height:auto;
+    width:100%;
+}
+.spaceout{
+    padding-top:70px;
+}
+.button {
+    border:orange;
+    border-radius: 50%;
+    cursor: crosshair;
+    padding:40px;
+  }
+  .button:hover{
+      background-color: black;
+      color:white;
+  }

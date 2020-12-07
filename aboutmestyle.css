@@ -1,0 +1,21 @@
+.hangout{
+    border-radius: 80%;
+}
+.bg-1{
+    background-image: url(https://img.freepik.com/free-vector/shiny-blue-blurred-background_1034-804.jpg?size=338&amp;ext=jpg);
+    position: center;
+    background-size: cover;
+}
+.spacing{
+    padding:35px;
+}
+.button {
+    border:orange;
+    border-radius: 50%;
+    cursor: crosshair;
+    padding:40px;
+  }
+  .button:hover{
+      background-color: black;
+      color:white;
+  }
